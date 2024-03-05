@@ -1,5 +1,5 @@
 import React from 'react';
-import video from '../assets/video3.mov'
+import video from '../assets/video3.webm'
 import './Home.css'
 
 
