@@ -1,12 +1,12 @@
 
 
 .container {
-    position: fixed;
+    /* position: absolute; */
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@
 
 
 video {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -43,11 +43,15 @@ video {
     z-index: 5;
 }
 
+.home_content img{
+    width: 40vw;
+}
+/* 
 .home_content h2{
     font-size: 4rem;
     font-weight: bold;
     line-height: 1.5;
-}
+} */
 
 
 .home_content button{
@@ -70,16 +74,24 @@ video {
 
 
 @media screen and (max-width: 768px) {
-    .home_content h2{
+    /* .home_content h2{
         font-size: 3rem;
+    } */
+
+    .home_content img{
+        width: 60vw;
     }
     
 }
 
 
-@media screen and (max-width: 400px) {
-    .home_content h2{
+@media screen and (max-width: 450px) {
+    /* .home_content h2{
         font-size: 2.5rem;
+    } */
+
+    .home_content img{
+        width: 80vw;
     }
     
 }
