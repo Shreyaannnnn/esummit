@@ -1,0 +1,25 @@
+
+.social-icons-animated-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 20px 0;
+}
+
+.social-icon {
+  margin: 0 15px;
+  font-size: 40px;
+  color: #fff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+
+.Visitus{
+    font-size: 30px;
+    color: white;
+    margin-right:25px ;
+}
