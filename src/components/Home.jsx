@@ -14,7 +14,7 @@ const Home = () => {
 
         <div className="home_content">
           {/* <h2>Discover Unforgettable Events Near You!</h2> */}
-          <img src={esummit} alt="" />
+          <img src={esummit} alt="esummit" />
 
           <button><a href="/">Register Now</a></button>
         </div>
