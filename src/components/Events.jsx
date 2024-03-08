@@ -7,6 +7,17 @@ import event4 from '../assets/event-4.png'
 import event5 from '../assets/event-5.png'
 import event6 from '../assets/event-6.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init(
+    {
+        offset: 200,
+    duration: 600,
+    easing: 'ease-in-sine',
+      }
+);
+
 const Events = () => {
   return (
     <section id='events' className='events'>
@@ -16,20 +27,20 @@ const Events = () => {
                 {/* <div className="event_card">
                     <img src={event1} alt="event 1" />
                 </div> */}
-                <div className="event_card">
-                    <img src={event2} alt="event 2event2" />
+                <div className="event_card" data-aos="flip-left">
+                    <img src={event2} alt="event 2" />
                 </div>
                 <div className="event_card">
-                    <img src={event3} alt="event 3" />
+                    <img src={event3} alt="event 3" data-aos="flip-right" />
                 </div>
                 <div className="event_card">
-                    <img src={event4} alt="event 4" />
+                    <img src={event4} alt="event 4" data-aos="flip-left" />
                 </div>
                 <div className="event_card">
-                    <img src={event5} alt="event 5" />
+                    <img src={event5} alt="event 5" data-aos="flip-right" />
                 </div>
                 <div className="event_card">
-                    <img src={event6} alt="event 6" />
+                    <img src={event6} alt="event 6" data-aos="flip-left" />
                 </div>
             </div>
         </div>

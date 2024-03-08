@@ -12,7 +12,7 @@
   flex-direction: column;
   align-items: center;
   gap: 35px;
-  margin: 5% 0;
+  margin-bottom: 5%;
   padding: 20px 10px;
 }
 
@@ -47,14 +47,6 @@
   max-width: 300px;
 }
 
-/* .event_card:hover {
-  box-shadow: 1px 1px #373737, 2px 2px #373737, 3px 3px #373737, 4px 4px #373737,
-    5px 5px #373737, 6px 6px #373737;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px);
-  transition: 0.3s ease;
-} */
-
 .event_card::before,
 .event_card::after {
   content: " ";
@@ -63,6 +55,7 @@
   position: absolute;
   border: 0px solid #fff;
   transition: all 1s;
+  z-index: 1;
 }
 
 .event_card::before {
@@ -93,6 +86,7 @@
 .event_card img {
   width: 100%;
   height: 100%;
+  z-index: -1;
 }
 
 
@@ -112,10 +106,10 @@
     padding: 10px;
   }
   
-  .events_cards {
+  /* .events_cards { */
     /* grid-template-columns: repeat(2, 1fr);
     gap: 30px; */
-  }
+  /* } */
   
 
 }
