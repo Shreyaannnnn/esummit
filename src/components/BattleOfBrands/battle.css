@@ -1,0 +1,162 @@
+/* App.css */
+
+.app {
+    /* font-family: Arial, sans-serif; */
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-color: rgb(36, 15, 41);
+    /* background-image: url(https://wallpapercave.com/wp/wp2729921.gif); */
+    background-image: url('./battlebg.jpg');
+    background-size: cover; /* Cover the entire container */
+  background-position: center; /* Center the image within the container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  overflow-x: hidden;
+    
+
+}
+
+
+/* .navbar {
+    margin-left: 70%; 
+  } */
+
+/* Header styles */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0px;
+}
+
+.logoo {
+    width: 120px;
+    /* Adjust the width as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* Body styles */
+.body {
+    padding: 10px;
+    color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    /* background-image: url(https://wallpapercave.com/wp/wp2729921.gif); */
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#brand {
+    /* color: aqua(216, 225, 238); */
+    font-size: 80px;
+    /* border: 0px; */
+    padding: 5px;
+    padding-left: 80px;
+    padding-right: 80px;
+    /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/153/283/small/abstract-black-background-with-diagonal-line-modern-stripes-texture-design-vector.jpg); */
+    background-size: auto;
+    border-radius: 30px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .battle_logo {
+    width: 1000px;
+    height: 1000px;
+} */
+
+#slogan {
+    text-decoration: underline;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.rules {
+    text-align: left;
+    list-style-position: inside;
+}
+
+p,
+.rules {
+    border: 3px;
+    padding: 40px;
+    /* background-image: url(https://garden.spoonflower.com/c/13142006/p/f/m/vhNKO-_sOyySHrz8cYHbDM9HeuaW6HxZoBg-iD9jqQKdXiNBDTS3/plum%20brown%20solid%20color.jpg);
+    background-color: #5e6860; */
+    color: white;
+    border-radius: 50px;
+    width: 70vw;
+    /* box-shadow: 13px 8px #8d8282; */
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+}
+
+/* button {
+    height: 30px;
+    width: 70%;
+    border-radius: 10%;
+    color: rgb(11, 14, 21);
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: rgb(129, 126, 131);
+} */
+
+.battle_logo {
+    border: 3px solid yellow;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    order: -1;
+}
+
+h2 {
+    /* background-image: url(https://cdn.vectorstock.com/i/preview-1x/96/85/black-abstract-background-modern-dark-gradient-vector-46049685.jpg); */
+    /* background-color: #201a20; */
+    /* margin-left: 590px;
+    margin-right: 590px; */
+    border-radius: 50px;
+
+    justify-self: center;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+

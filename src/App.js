@@ -5,17 +5,26 @@ import About from './components/About';
 import Events from './components/Events';
 import Socials from  './components/Socials';
 import Footer from './components/Footer';
+import Ideathon from './components/Ideathon/Main'
+import BattleOfBrands from './components/BattleOfBrands/BattleOfBrands';
+import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import Homepage from './components/Homepage/Homepage';
 
 const App = () => {
   return (
-    <>
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Events/>
-    <Socials/>
-    <Footer/>
-    </>
+    <Router>
+        <Routes>
+          {/* <Route path='/' component={Homepage} /> */}
+          <Route path='/' element={<Homepage />} />
+          {/* Define your routes inside the Switch component */}
+          <Route path="/ideathon" element={<Ideathon />} />
+          {/* <Route path="/traderstussle" component={TradersTussle} /> */}
+          <Route path="/battleofbrands" element={<BattleOfBrands />} />
+          {/* <Route path="/nftrush" component={NFTRush} /> */}
+        </Routes>
+        {/* Components outside the Switch will be rendered on all pages */}
+
+    </Router>
   );
 };
 
