@@ -25,12 +25,17 @@
 }
 
 .events_cards {
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 40px;
+  gap: 40px; */
   /* width: 90vw; */
   /* height: fit-content; */
   overflow: hidden;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
 }
 
 .event_card {
@@ -39,6 +44,7 @@
   border: 2px solid transparent;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  max-width: 300px;
 }
 
 /* .event_card:hover {
@@ -107,8 +113,8 @@
   }
   
   .events_cards {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30px;
+    /* grid-template-columns: repeat(2, 1fr);
+    gap: 30px; */
   }
   
 
@@ -126,7 +132,7 @@
         justify-content: center;
     }
 
-    .events_cards{
+    /* .events_cards{
         grid-template-columns: minmax(200px, 300px);
-    }
+    } */
 }
