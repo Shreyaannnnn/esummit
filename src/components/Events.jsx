@@ -30,17 +30,17 @@ const Events = () => {
                 <div className="event_card" data-aos="flip-left">
                     <img src={event2} alt="event 2" />
                 </div>
-                <div className="event_card">
-                    <img src={event3} alt="event 3" data-aos="flip-right" />
+                <div className="event_card" data-aos="flip-right">
+                    <img src={event3} alt="event 3"  />
                 </div>
-                <div className="event_card">
-                    <img src={event4} alt="event 4" data-aos="flip-left" />
+                <div className="event_card"  data-aos="flip-left" >
+                    <img src={event4} alt="event 4"/>
                 </div>
-                <div className="event_card">
-                    <img src={event5} alt="event 5" data-aos="flip-right" />
+                <div className="event_card" data-aos="flip-right" >
+                    <img src={event5} alt="event 5" />
                 </div>
-                <div className="event_card">
-                    <img src={event6} alt="event 6" data-aos="flip-left" />
+                <div className="event_card" data-aos="flip-left" >
+                    <img src={event6} alt="event 6" />
                 </div>
             </div>
         </div>
