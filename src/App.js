@@ -7,8 +7,9 @@ import Socials from  './components/Socials';
 import Footer from './components/Footer';
 import Ideathon from './components/Ideathon/Main'
 import BattleOfBrands from './components/BattleOfBrands/BattleOfBrands';
-import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Homepage from './components/Homepage/Homepage';
+import NFTRush from './components/NFTRush/NFTRush';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
           {/* <Route path="/traderstussle" component={TradersTussle} /> */}
           <Route path="/battleofbrands" element={<BattleOfBrands />} />
           {/* <Route path="/nftrush" component={NFTRush} /> */}
+          <Route path='/nftrush' element={<NFTRush/>} />
         </Routes>
         {/* Components outside the Switch will be rendered on all pages */}
 

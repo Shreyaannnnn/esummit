@@ -1,0 +1,51 @@
+/* body{
+    position: relative;
+} */
+
+
+.visionAndMission{
+    display: flex;
+    gap: 140px;
+    color: white;
+    padding: 90px 185px;
+    user-select: none;
+}
+
+.visionAndMission .left-section h3{    
+    font-family: black;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 550px;
+}
+
+.visionAndMission .left-section h3 span{
+    /* text-decoration: underline;
+    text-underline-offset: 8px; */
+    background-color: white;
+    color: black;
+    width: max-content;
+}
+
+.visionAndMission .right-section .container{
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 6px;
+    padding: 30px 35px;
+    line-height: 35px;
+    transition: background-color 0.25s;
+
+}
+
+.visionAndMission .right-section .container p{
+    /* width: 800px; */
+    max-width: 800px;
+    font-size: 20px;
+    /* overflow-wrap: anywhere;
+    hyphens: auto;     */
+}
+
+.visionAndMission .right-section .container:hover{
+    background-color: rgb(22, 22, 22);
+}

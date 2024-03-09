@@ -19,7 +19,7 @@ const Footer = () => {
             {/* <li><a href="#contact">Contact</a></li> */}
           </ul>
         </div>
-        <div className="footer-section contact-section">
+        <div className=" contact-section">
           <h4>Contact Us</h4>
           <p>FC-26, Panduk Shila Marg, Zero Pusta Rd, Shastri Park,</p>
           <p> Shahdara, New Delhi, Delhi 110053</p>
