@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.about_us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+    padding: 70px;
+
+}
+
+.AboutContent{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    width: auto;
+    height: auto;
+}
+
+.AboutContent h2{
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+    margin: 0;padding: 0;
+    font-size: 6rem;
+    color: white;
+    font-weight: 700;
+}
+
+.AboutContent p{
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-weight: 200;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 500px) {
+    .about_us{
+padding: 20px;
+    }
+    .AboutContent h2 {
+        font-size: 4.2rem; /* Adjust the font size for h2 */
+    }
+
+    .AboutContent p {
+        padding: 30px; /* Adjust the padding for paragraphs */
+        font-size: 1rem; /* Adjust the font size for paragraphs */
+    }
+}

@@ -1,0 +1,21 @@
+.about-container{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 110px 0px;
+margin-top: 200px;
+}
+.section{
+  display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px 0px;
+user-select: none;
+}
+.sectionHeading{
+  color: var(--primary-color);
+  font-family: black;
+  font-size: 50px;
+  margin-bottom: 70px;
+  user-select: none;
+}

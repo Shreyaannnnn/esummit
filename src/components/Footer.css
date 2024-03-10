@@ -49,6 +49,8 @@
 
 .contact-section p {
   margin: 5px 0;
+  padding: 0;
+  width: auto;
 }
 
 

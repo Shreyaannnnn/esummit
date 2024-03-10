@@ -1,0 +1,34 @@
+.timeHeading{
+    background-color: white;
+    color: black;
+}
+
+.time-section{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    transform: scale(3);
+    max-width: 650px;
+    margin-left:900px;
+}
+
+.timerContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer{
+    width: max-content;
+    height: max-content;
+}
+
+.time-section .remaining{
+    position: absolute; bottom: 0; left: 480px;
+}
